@@ -11,10 +11,21 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+    
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    background-color:#fffbfb;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
+}
+
+h1 {
+    text-align:center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    color:#c43333;
 }
 
 a {
@@ -29,18 +40,24 @@ a {
 }
 
 .button {
-    background-color:#c43333
-        
+    background-color:#c43333;
+    border: 0px solid;
+      
 }
 
 a:link,
 a:visited {
     color:#fee;
     width: 200px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 a:hover,
 a:active,
 a:focus {
-	width: 75px;
+    background-color:#791b1b;
+    border-radius: 25px;
 }
